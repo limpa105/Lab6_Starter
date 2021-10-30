@@ -1,0 +1,500 @@
+{
+    "@context": "https:\/\/schema.org",
+    "@type": "Recipe",
+    "@id": "https:\/\/www.tasteofhome.com\/recipes\/homemade-vanilla-ice-cream\/",
+    "name": "Homemade Vanilla Ice Cream",
+    "prepTime": "PT5M",
+    "cookTime": "PT20M",
+    "totalTime": "PT25M",
+    "image": [
+        "https:\/\/tmbidigitalassetsazure.blob.core.windows.net\/rms3-prod\/attachments\/37\/1200x1200\/Homemade-Vanilla-Ice-Cream_EXPS_SDJJ17_4799_B02_14_6b.jpg",
+        [
+            "https:\/\/cdn3.tmbi.com\/toh\/GoogleImages\/Homemade-Vanilla-Ice-Cream_EXPS_SDJJ17_4799_B02_14_6b.jpg"
+        ],
+        [
+            "https:\/\/cdn3.tmbi.com\/toh\/GoogleImagesPostCard\/Homemade-Vanilla-Ice-Cream_EXPS_SDJJ17_4799_B02_14_6b.jpg"
+        ]
+    ],
+    "recipeCategory": [
+        "Desserts"
+    ],
+    "description": "We don't want to brag, but as far as vanilla ice cream recipes go, this one is the best. And with only four ingredients, it just might be the easiest, too. No ice cream maker? No problem. Just follow the directions below to learn how to make homemade ice cream by hand. It's the perfect base for our <a href=\"https:\/\/www.tasteofhome.com\/collection\/best-ice-cream-sundae-ideas\/\/\">best ice cream sundae ideas<\/a>, too. \u2014Taste of Home Test Kitchen",
+    "recipeIngredient": [
+        "2 cups heavy whipping cream",
+        "2 cups half-and-half cream",
+        "1 cup sugar",
+        "2 teaspoons vanilla extract"
+    ],
+    "recipeInstructions": "Combine all ingredients, stirring to dissolve sugar completely. Fill cylinder of ice cream maker no more than two-thirds full; freeze according to manufacturer's directions. (Refrigerate any remaining mixture until ready to freeze.) Serve immediately or store in covered containers in freezer.",
+    "recipeYield": "1-1\/4 quarts.",
+    "author": {
+        "@type": "Organization",
+        "name": "Taste of Home"
+    },
+    "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": " 308 calories",
+        "fatContent": "22g fat (14g saturated fat)",
+        "cholesterolContent": "78mg cholesterol",
+        "sodiumContent": "37mg sodium",
+        "carbohydrateContent": "23g carbohydrate (23g sugars",
+        "fiberContent": "0 fiber)",
+        "proteinContent": "3g protein. "
+    },
+    "aggregateRating": {
+        "@context": "http:\/\/schema.org\/",
+        "@type": "AggregateRating",
+        "ratingValue": 4.8301888,
+        "reviewCount": 53,
+        "worstRating": 1,
+        "bestRating": 5
+    },
+    "review": [
+        {
+            "@context": "http:\/\/schema.org\/",
+            "@type": "Review",
+            "datePublished": "2021-06-05",
+            "author": {
+                "@context": "http:\/\/schema.org\/",
+                "@type": "Person",
+                "name": "Yonah"
+            },
+            "reviewBody": "This was amazing! Thank you so much for the Recipe!!",
+            "reviewRating": {
+                "@context": "http:\/\/schema.org\/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http:\/\/schema.org\/",
+            "@type": "Review",
+            "datePublished": "2021-05-02",
+            "author": {
+                "@context": "http:\/\/schema.org\/",
+                "@type": "Person",
+                "name": "Sheryl313"
+            },
+            "reviewBody": "By far the easiest, creamiest, flavorful ice cream I've ever had.  If there was an option to rate this at 10 stars, I would.",
+            "reviewRating": {
+                "@context": "http:\/\/schema.org\/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http:\/\/schema.org\/",
+            "@type": "Review",
+            "datePublished": "2020-08-25",
+            "author": {
+                "@context": "http:\/\/schema.org\/",
+                "@type": "Person",
+                "name": "heartchild89"
+            },
+            "reviewBody": "Oh my goodness this was so easy and tastes fabulous. And I know exactly what is in it. I have been so disappointed in store bought ice cream with all the ingredients you can\u2019t even pronounce. I have had an ice cream maker for 30 plus years and just stopped using it for some reason. After reading ice cream labels decided it was time to dig it out again and I am so happy I did. After reading reviews I played with the recipe. I used 2 1\/2 cups each of whipping cream and 1\/2 & 1\/2. Then took 1 cup milk and heated it to dissolve the sugar better, then chilled it before mixing everything together. It turned out wonderful and I am looking forward to making this again in a larger batch because my husband eats a small bowl of ice cream every night :) he is definitely a happy camper.",
+            "reviewRating": {
+                "@context": "http:\/\/schema.org\/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http:\/\/schema.org\/",
+            "@type": "Review",
+            "datePublished": "2020-10-10",
+            "author": {
+                "@context": "http:\/\/schema.org\/",
+                "@type": "Person",
+                "name": "Kristen"
+            },
+            "reviewBody": "So much better than store bought.",
+            "reviewRating": {
+                "@context": "http:\/\/schema.org\/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http:\/\/schema.org\/",
+            "@type": "Review",
+            "datePublished": "2020-07-18",
+            "author": {
+                "@context": "http:\/\/schema.org\/",
+                "@type": "Person",
+                "name": "ValerieWebb"
+            },
+            "reviewBody": "This was exactly the recipe I've been looking for! I used 1 1\/2 cups of whipping cream and 2 1\/2 cups of whole milk and didn't encounter the whipped cream flavor a few mentioned. I also used a bit less sugar. This is for sure my new go-to ice cream recipe. Perfect!",
+            "reviewRating": {
+                "@context": "http:\/\/schema.org\/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http:\/\/schema.org\/",
+            "@type": "Review",
+            "datePublished": "2018-01-21",
+            "author": {
+                "@context": "http:\/\/schema.org\/",
+                "@type": "Person",
+                "name": "CHARITO"
+            },
+            "reviewBody": "Super easy, and tastes really good!  Made it in my Nostalgia electric ice cream maker following the instructions on my machine, and it froze to perfect consistency.  Wonderfully creamy with a very home made vanilla taste.  First time I used my machine and first time making ice cream, will definitely be sticking to this recipe.",
+            "reviewRating": {
+                "@context": "http:\/\/schema.org\/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http:\/\/schema.org\/",
+            "@type": "Review",
+            "datePublished": "2020-03-11",
+            "author": {
+                "@context": "http:\/\/schema.org\/",
+                "@type": "Person",
+                "name": "DawnXhudo"
+            },
+            "reviewBody": "OMG! SO much fun to make and even more fun to eat. The possibilities are endless! You can adjust this recipe and make just about any flavor or color you want! So happy that I have passed this on to my family and friends! Thank you we are really enjoying it here in New York!",
+            "reviewRating": {
+                "@context": "http:\/\/schema.org\/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http:\/\/schema.org\/",
+            "@type": "Review",
+            "datePublished": "2019-05-26",
+            "author": {
+                "@context": "http:\/\/schema.org\/",
+                "@type": "Person",
+                "name": "KarenMiracle"
+            },
+            "reviewBody": "Wonderful, flavorful, easy recipe!  Everyone loved it!  I will keep this as our favorite ice cream recipe.",
+            "reviewRating": {
+                "@context": "http:\/\/schema.org\/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http:\/\/schema.org\/",
+            "@type": "Review",
+            "datePublished": "2018-05-24",
+            "author": {
+                "@context": "http:\/\/schema.org\/",
+                "@type": "Person",
+                "name": "JoanneJoannaDanna"
+            },
+            "reviewBody": "All I can say is this is great stuff!  Making more for the grand babies ????",
+            "reviewRating": {
+                "@context": "http:\/\/schema.org\/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http:\/\/schema.org\/",
+            "@type": "Review",
+            "datePublished": "2018-11-15",
+            "author": {
+                "@context": "http:\/\/schema.org\/",
+                "@type": "Person",
+                "name": "KristineThompson"
+            },
+            "reviewBody": "This recipe is the greatest!  All  you need is a mixer and container to freeze in! My son has stomach issues and regular ice cream from the store makes him sick! When I make this ice cream he has no issues and I can make his favorite! I put green food coloring with a couple drops of peppermint and mix away  and you can put in freezer  let get firm and stir in choc chips and have choc chip mint!",
+            "reviewRating": {
+                "@context": "http:\/\/schema.org\/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http:\/\/schema.org\/",
+            "@type": "Review",
+            "datePublished": "2019-04-07",
+            "author": {
+                "@context": "http:\/\/schema.org\/",
+                "@type": "Person",
+                "name": "nightskystar"
+            },
+            "reviewBody": "I agree with Audrey. Ecoderre should not post a review without trying a recipe. This is what i did. I first made the recipe for my family, as written. They gave it 5 stars. I follow a ketogenic diet, and have found ways to modify most things so that I can eat them. I used the basic recipe. Substituted allulose (a natural sweetener) for the sugar, and full fat coconut milk for the half and half. Its WONDERFUL!!! Make this your own. add in chocolate chips. berries. some caramel ice cream topping (or make your own) use flavorings. etc. You wont be sorry!!! Everyone in my house is happy. Carbers and non carbers alike. THANK YOU FOR THIS EXCELLENT RECIPE!",
+            "reviewRating": {
+                "@context": "http:\/\/schema.org\/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http:\/\/schema.org\/",
+            "@type": "Review",
+            "datePublished": "2020-08-19",
+            "author": {
+                "@context": "http:\/\/schema.org\/",
+                "@type": "Person",
+                "name": "YashwantSingh"
+            },
+            "reviewBody": "Love your way of making vanilla ice cream and appreciate your writing skills. ",
+            "reviewRating": {
+                "@context": "http:\/\/schema.org\/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http:\/\/schema.org\/",
+            "@type": "Review",
+            "datePublished": "2020-05-21",
+            "author": {
+                "@context": "http:\/\/schema.org\/",
+                "@type": "Person",
+                "name": "angela32"
+            },
+            "reviewBody": "So good and easy!",
+            "reviewRating": {
+                "@context": "http:\/\/schema.org\/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http:\/\/schema.org\/",
+            "@type": "Review",
+            "datePublished": "2019-08-04",
+            "author": {
+                "@context": "http:\/\/schema.org\/",
+                "@type": "Person",
+                "name": "LindaOberle "
+            },
+            "reviewBody": "For those who want a less like whip cream. Use only   1 1\/2 cups of heavy cream 1 1\/2 cups of  half and half 1c. Of whole milk It works quite well",
+            "reviewRating": {
+                "@context": "http:\/\/schema.org\/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http:\/\/schema.org\/",
+            "@type": "Review",
+            "datePublished": "2020-05-07",
+            "author": {
+                "@context": "http:\/\/schema.org\/",
+                "@type": "Person",
+                "name": "nanvo69"
+            },
+            "reviewBody": "I have a similar recipe from years ago only it's for lemon ice cream.  Only I always left the lemon out.  It's a great recipe.  I made it froze it like halfway then added a pumpkin pie to it n cut in whipped cream.  Then put back in freezer.  We all loved it.",
+            "reviewRating": {
+                "@context": "http:\/\/schema.org\/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http:\/\/schema.org\/",
+            "@type": "Review",
+            "datePublished": "2019-05-15",
+            "author": {
+                "@context": "http:\/\/schema.org\/",
+                "@type": "Person",
+                "name": "Deb EWaterman",
+                "givenName": "Deb",
+                "familyName": "EWaterman"
+            },
+            "reviewBody": "Well it looks like ecoderre May be making a fool of themselves. Comparing this recipe to a frozen custard is like comparing Chicago deep dish pizza to New York thin crust. They are very different styles. I actually made this recipe and couldn\u2019t be happier. Simple, pure and no apologies to vanilla extract. Delicious!!",
+            "reviewRating": {
+                "@context": "http:\/\/schema.org\/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http:\/\/schema.org\/",
+            "@type": "Review",
+            "datePublished": "2016-08-11",
+            "author": {
+                "@context": "http:\/\/schema.org\/",
+                "@type": "Person",
+                "name": "shannondobos"
+            },
+            "reviewBody": "I just got an ice cream maker and tried this as my first ice cream.  I am so pleased with it!  This recipe is simple, and SO delicious and creamy.   I'll  be hesitant to try any other recipes since this one was such a winner.  I can't wait to try the fruit versions suggested here, and I think I'll try switching up the extract to coconut and adding some toasted coconut as well to make a coconut ice cream.",
+            "reviewRating": {
+                "@context": "http:\/\/schema.org\/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http:\/\/schema.org\/",
+            "@type": "Review",
+            "datePublished": "2019-07-05",
+            "author": {
+                "@context": "http:\/\/schema.org\/",
+                "@type": "Person",
+                "name": "NathanGood"
+            },
+            "reviewBody": "This tasted great and was super easy to make!",
+            "reviewRating": {
+                "@context": "http:\/\/schema.org\/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http:\/\/schema.org\/",
+            "@type": "Review",
+            "datePublished": "2019-12-25",
+            "author": {
+                "@context": "http:\/\/schema.org\/",
+                "@type": "Person",
+                "name": "CatharinaAnin"
+            },
+            "reviewBody": "I made this ice cream and we fell in love . It\u2019s so easy to make and delicious too .it is a favorite go to meal. I will definitely be making it my go to recipe for ice cream. 5  stars.",
+            "reviewRating": {
+                "@context": "http:\/\/schema.org\/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http:\/\/schema.org\/",
+            "@type": "Review",
+            "datePublished": "2018-05-21",
+            "author": {
+                "@context": "http:\/\/schema.org\/",
+                "@type": "Person",
+                "name": "NicolaTurner"
+            },
+            "reviewBody": "Love this recipe, its defo the best!  My kids devoured it, me and my husband hardly got any lol!",
+            "reviewRating": {
+                "@context": "http:\/\/schema.org\/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http:\/\/schema.org\/",
+            "@type": "Review",
+            "datePublished": "2019-07-17",
+            "author": {
+                "@context": "http:\/\/schema.org\/",
+                "@type": "Person",
+                "name": "KathleenCombs"
+            },
+            "reviewBody": "The first time I made this, I had some vanilla bean. Which I used in conjunction with the extract. What a beautiful rich and creamy ice cream. All the family raved.",
+            "reviewRating": {
+                "@context": "http:\/\/schema.org\/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http:\/\/schema.org\/",
+            "@type": "Review",
+            "datePublished": "2014-10-03",
+            "author": {
+                "@context": "http:\/\/schema.org\/",
+                "@type": "Person",
+                "name": "Mombo1022"
+            },
+            "reviewBody": "Made as a fast, super Easy ice cream for a Chocolate Cake I made for my hubby's  birthday!!!   Everyone loved it & couldn't believe how SUPER SIMPLE it was &  the ingredients couldn't  be any simpler!!!   Soooo much better than store bought!!  YUM!!",
+            "reviewRating": {
+                "@context": "http:\/\/schema.org\/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http:\/\/schema.org\/",
+            "@type": "Review",
+            "datePublished": "2012-08-16",
+            "author": {
+                "@context": "http:\/\/schema.org\/",
+                "@type": "Person",
+                "name": "gwashington1961"
+            },
+            "reviewBody": "This is a tasty recipe - yet a very expensive recipe! 2C. Heavy whipping cream + 2C\/ 1\/2 & 1\/2 is a very rich combination.  It will serve well for the family, but usually is best mixed with fruits to stretch the quantity yielded!",
+            "reviewRating": {
+                "@context": "http:\/\/schema.org\/",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        },
+        {
+            "@context": "http:\/\/schema.org\/",
+            "@type": "Review",
+            "datePublished": "2019-07-20",
+            "author": {
+                "@context": "http:\/\/schema.org\/",
+                "@type": "Person",
+                "name": "meeerylou"
+            },
+            "reviewBody": "Tasted like whipped cream. Very fluffy and fatty. I will look for a different recipe for ice cream.",
+            "reviewRating": {
+                "@context": "http:\/\/schema.org\/",
+                "@type": "Rating",
+                "ratingValue": 1,
+                "worstRating": 1,
+                "bestRating": 5
+            }
+        }
+    ],
+    "recipeCuisine": "",
+    "video": {
+        "@type": "VideoObject",
+        "name": "3 Ways to Make Homemade Ice Cream",
+        "description": "Check out this video for 3 ways to make Homemade Ice Cream",
+        "thumbnailUrl": [
+            "http:\/\/content.jwplatform.com\/v2\/media\/YyTCmiVZ\/poster.jpg?width=720"
+        ],
+        "uploadDate": "2020-09-5 10:41:10",
+        "duration": "P0DT0H1M57S",
+        "contentUrl": "https:\/\/videodam.tmbi.com\/wp-content\/uploads\/2018\/06\/DIYD_4799_043018_H.mp4"
+    }
+}

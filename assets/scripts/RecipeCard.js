@@ -92,7 +92,7 @@ class RecipeCard extends HTMLElement {
 
     // create the headline image
     const img = document.createElement('img');
-    img.setAttribute("src",  searchForKey(data, "thumbnailUrl"));
+    img.setAttribute("src",  searchForKey(data, "thumbnailUrl") || searchForKey(data, "image"));
     img.setAttribute("alt", data["name"]);
     card.appendChild(img);
 
@@ -101,14 +101,15 @@ class RecipeCard extends HTMLElement {
     p1.setAttribute("class", "title");
     card.appendChild(p1)
     const title_link = document.createElement('a')
-    title_link.textContent = searchForKey(data, "headline")
-    title_link.setAttribute('href', getUrl(data))
+    title_link.textContent = searchForKey(data, "headline") || searchForKey(data, "name");
+    title_link.setAttribute('href', getUrl(data) || searchForKey(data, "@id"))
+    console.log(searchForKey(data, "@id"))
     p1.appendChild(title_link)
 
     // set the orginazation 
     const p2 = document.createElement('p')
     p2.setAttribute("class", "organization")
-    p2.textContent = getOrganization(data)
+    p2.textContent = getOrganization(data) || searchForKey(data, 'author').name;
     card.appendChild(p2)
 
     // set the ratingis if they exists 
@@ -117,7 +118,7 @@ class RecipeCard extends HTMLElement {
     const span1 = document.createElement('span')
     const rating = searchForKey(data,"aggregateRating")
     if (rating) {
-      span1.textContent =parseFloat(rating["ratingValue"])
+      span1.textContent =parseFloat(rating["ratingValue"]).toPrecision(2)
       div1.appendChild(span1)
       const rateImg  = document.createElement('img')
       const rate = Math.round(parseFloat(rating["ratingValue"]))
@@ -125,7 +126,7 @@ class RecipeCard extends HTMLElement {
       rateImg.setAttribute("alt", rate + " starts")
       div1.appendChild(rateImg);
       const span2  = document.createElement('span')
-      span2.textContent = "(" + (rating["ratingCount"]) + ")"
+      span2.textContent = "(" + (rating["ratingCount"] || rating["reviewCount"]) + ")"
       div1.appendChild(span2)
 
     }

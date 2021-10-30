@@ -5,7 +5,10 @@
 const recipes = [
   'https://introweb.tech/assets/json/ghostCookies.json',
   'https://introweb.tech/assets/json/birthdayCake.json',
-  'https://introweb.tech/assets/json/chocolateChip.json'
+  'https://introweb.tech/assets/json/chocolateChip.json',
+  'assets/recipes/lava_cake.json',
+  'assets/recipes/ice_cream.json',
+  'assets/recipes/bread.json'
 ];
 
 // Once all of the recipes that were specified above have been fetched, their
@@ -36,10 +39,14 @@ async function fetchRecipes() {
     for(let i = 0; i<recipes.length; i++) {
       fetch(recipes[i])
       .then(response => response.json())
-      .then( data => {recipeData[recipes[i]] = data;
-      if (Object.keys(recipeData).length = recipes.length) {
+      .then(data => {
+        recipeData[i] = data; console.log() 
+      })
+      .then(() => {
+        if (Object.keys(recipeData).length == recipes.length) {
         resolve(true)
-      }}).catch(err => {console.log(err); reject(false)})
+      }}).catch(err => {console.log(err); reject(false)}) 
+
       }}) }
 
 
@@ -56,10 +63,11 @@ async function fetchRecipes() {
     // Part 1 Expose - TODO
 
 function createRecipeCards() {
-  for (let i=0; i< Object.keys(recipeData).length; i++){
-     var element = document.createElement('recipe-card')
-     element.data = recipeData[recipes[i]]
-     console.log(element.data)
+  for (let i=0; i< recipes.length; i++){
+     let element = document.createElement('recipe-card');
+     console.log(element);
+     console.log(recipeData);
+     element.data = recipeData[i];
      document.querySelector('main').appendChild(element);
   }
 
