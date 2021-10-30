@@ -1,5 +1,7 @@
 class RecipeCard extends HTMLElement {
   constructor() {
+    super();
+    this.attachShadow({mode: 'open'});
     // Part 1 Expose - TODO
 
     // You'll want to attach the shadow DOM here
@@ -88,6 +90,64 @@ class RecipeCard extends HTMLElement {
     // Here's the root element that you'll want to attach all of your other elements to
     const card = document.createElement('article');
 
+    // create the headline image
+    const img = document.createElement('img');
+    img.setAttribute("src",  searchForKey(data, "thumbnailUrl"));
+    img.setAttribute("alt", data["name"]);
+    card.appendChild(img);
+
+    // create the image title
+    const p1 = document.createElement('p');
+    p1.setAttribute("class", "title");
+    card.appendChild(p1)
+    const title_link = document.createElement('a')
+    title_link.textContent = searchForKey(data, "headline")
+    title_link.setAttribute('href', getUrl(data))
+    p1.appendChild(title_link)
+
+    // set the orginazation 
+    const p2 = document.createElement('p')
+    p2.setAttribute("class", "organization")
+    p2.textContent = getOrganization(data)
+    card.appendChild(p2)
+
+    // set the ratingis if they exists 
+    const div1 = document.createElement('div')
+    div1.setAttribute("class", "rating")
+    const span1 = document.createElement('span')
+    const rating = searchForKey(data,"aggregateRating")
+    if (rating) {
+      span1.textContent =parseFloat(rating["ratingValue"])
+      div1.appendChild(span1)
+      const rateImg  = document.createElement('img')
+      const rate = Math.round(parseFloat(rating["ratingValue"]))
+      rateImg.setAttribute("src", "/assets/images/icons/" +rate +"-star.svg")
+      rateImg.setAttribute("alt", rate + " starts")
+      div1.appendChild(rateImg);
+      const span2  = document.createElement('span')
+      span2.textContent = "(" + (rating["ratingCount"]) + ")"
+      div1.appendChild(span2)
+
+    }
+    else {
+      span1.textContent = "No Reviews"
+      div1.appendChild(span1)
+    }
+
+    card.appendChild(div1)
+
+    // set time
+    const time = document.createElement('time')
+    time.textContent = convertTime(searchForKey(data, "totalTime"))
+    card.appendChild(time)
+
+    // set ingridients 
+    const ingList = document.createElement('p')
+    ingList.setAttribute("class", "ingredients")
+    ingList.textContent = createIngredientList(searchForKey(data, "recipeIngredient"))
+    card.appendChild(ingList)
+
+
     // Some functions that will be helpful here:
     //    document.createElement()
     //    document.querySelector()
@@ -97,9 +157,13 @@ class RecipeCard extends HTMLElement {
     //    & All of the helper functions below
 
     // Make sure to attach your root element and styles to the shadow DOM you
+
     // created in the constructor()
 
     // Part 1 Expose - TODO
+    this.shadowRoot.appendChild(card);
+    this.shadowRoot.appendChild(styleElem);
+
   }
 }
 
