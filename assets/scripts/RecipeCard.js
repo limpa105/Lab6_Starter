@@ -121,7 +121,7 @@ class RecipeCard extends HTMLElement {
       div1.appendChild(span1)
       const rateImg  = document.createElement('img')
       const rate = Math.round(parseFloat(rating["ratingValue"]))
-      rateImg.setAttribute("src", "/assets/images/icons/" +rate +"-star.svg")
+      rateImg.setAttribute("src", "assets/images/icons/" +rate +"-star.svg")
       rateImg.setAttribute("alt", rate + " starts")
       div1.appendChild(rateImg);
       const span2  = document.createElement('span')
