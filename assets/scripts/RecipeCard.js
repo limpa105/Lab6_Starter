@@ -100,11 +100,10 @@ class RecipeCard extends HTMLElement {
     const p1 = document.createElement('p');
     p1.setAttribute("class", "title");
     card.appendChild(p1)
-    const title_link = document.createElement('a')
-    title_link.textContent = searchForKey(data, "headline") || searchForKey(data, "name");
-    title_link.setAttribute('href', getUrl(data) || searchForKey(data, "@id"))
-    console.log(searchForKey(data, "@id"))
-    p1.appendChild(title_link)
+    const titleLink = document.createElement('a')
+    titleLink.textContent = searchForKey(data, "headline") || searchForKey(data, "name");
+    titleLink.setAttribute('href', getUrl(data) || searchForKey(data, "@id"))
+    p1.appendChild(titleLink)
 
     // set the orginazation 
     const p2 = document.createElement('p')

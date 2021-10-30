@@ -22,7 +22,6 @@ window.addEventListener('DOMContentLoaded', init);
 async function init() {
   // fetch the recipes and wait for them to load
   let fetchSuccessful = await fetchRecipes();
-  console.log(recipeData)
   // if they didn't successfully load, quit the function
   if (!fetchSuccessful) {
     console.log('Recipe fetch unsuccessful');
@@ -40,7 +39,7 @@ async function fetchRecipes() {
       fetch(recipes[i])
       .then(response => response.json())
       .then(data => {
-        recipeData[i] = data; console.log() 
+        recipeData[i] = data;
       })
       .then(() => {
         if (Object.keys(recipeData).length == recipes.length) {
@@ -65,15 +64,11 @@ async function fetchRecipes() {
 function createRecipeCards() {
   for (let i=0; i<3; i++){
      let element = document.createElement('recipe-card');
-     console.log(element);
-     console.log(recipeData);
      element.data = recipeData[i];
      document.querySelector('main').appendChild(element);
   }
   for (let i=3; i<recipes.length; i++){
     let element = document.createElement('recipe-card');
-    console.log(element);
-    console.log(recipeData);
     element.data = recipeData[i];
     element.style.display = 'none';
     document.querySelector('main').appendChild(element);
@@ -91,7 +86,6 @@ function createRecipeCards() {
 }
 
 function bindShowMore() {
-  console.log(document.querySelector('button'))
   document.querySelector('button').addEventListener("click", function(){ 
     if (document.querySelector('button').textContent == "Show more") {
       for (let i=3 ; i<recipes.length; i++){
