@@ -63,13 +63,22 @@ async function fetchRecipes() {
     // Part 1 Expose - TODO
 
 function createRecipeCards() {
-  for (let i=0; i< recipes.length; i++){
+  for (let i=0; i<3; i++){
      let element = document.createElement('recipe-card');
      console.log(element);
      console.log(recipeData);
      element.data = recipeData[i];
      document.querySelector('main').appendChild(element);
   }
+  for (let i=3; i<recipes.length; i++){
+    let element = document.createElement('recipe-card');
+    console.log(element);
+    console.log(recipeData);
+    element.data = recipeData[i];
+    element.style.display = 'none';
+    document.querySelector('main').appendChild(element);
+ }
+
 
   
   // This function is called for you up above.
@@ -82,6 +91,25 @@ function createRecipeCards() {
 }
 
 function bindShowMore() {
+  console.log(document.querySelector('button'))
+  document.querySelector('button').addEventListener("click", function(){ 
+    if (document.querySelector('button').textContent == "Show more") {
+      for (let i=3 ; i<recipes.length; i++){
+        document.querySelector('main').children[i].style.display =''
+      }
+      document.querySelector('button').textContent = "Show less";
+
+    } 
+    else{
+      for (let i=3 ; i<recipes.length; i++){
+        document.querySelector('main').children[i].style.display ='none'
+      }
+      document.querySelector('button').textContent = "Show more";
+
+    
+  
+  }});
+
   // This function is also called for you up above.
   // Use this to add the event listener to the "Show more" button, from within 
   // that listener you can then create recipe cards for the rest of the .json files
